@@ -1,0 +1,15 @@
+{
+    "name": "vo/business_process",
+    "description": "Test task on PHP for Simourg",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "VO\\BusinessProcess\\": "src/",
+            "VO\\BusinessProcess\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10"
+    }
+}
